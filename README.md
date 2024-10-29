@@ -4,18 +4,18 @@ There are some proteins that interact with DNA and controls many characteristics
 # Dataset Details
 ### Two files - (1) Train.fasta and (2) Test.fasta
 Each sequence consists of a combination of 20 unique characters (each character represents one unique amino acid)
-### Example: 
+##### Example: 
 "MLTPRDENNEGDAMPMLKKPRYSSLSGQSTNITYQEHTISREERAAAVGRHEGFRGCTIWFTGLSGAGKTTISFALERTLNKLGIPCYGLDGDNIRHGLCKNLGFSKEDRQENIRRVAEVAKLFADSGMICLAAFISPFQEDRLDARKIHESENVKFIEVHVSTTLEVCEQRDPKPSELYKKARAGQILGFTGIDSAYEPPENAEIILDAGKDGVQQCVQKVLDHLESKGLLPEQIPDVPAVRELFVSDDLTVAELLKESQNLPTVELTKVDLQWLQVLAEGWATPLSGFMRERQYLQSMHFGQLLDLKHKVAFVGEKSDDKEDSWPMMDDINQSIPIVLPISDDVKKGLEGVTRIALKYNGQVYAILSDPEIFEHRKDERVCRQFGTNDPRHPAVAQVLESGNWLLGGDVAVVQKIQFNDGLDKYRKTPNELRAIFAEKNADAVFAFQLRNPIHNGHALLMRDTREKLLAEHKNPILLLHPLGGWTKDDDVPLDIRIKQHEAVIAERVLDPEWTVLSIFPSPMMYAGPTEVQWHARSRIAAGIQHYIVGRDPAGIQKPGSPDALYETTHGAKVLSMAPGLSALHILPFRVAAYDKTAKKMSFFDTSRKEDFENISGTKMRGLARNGDTPPEGFMAPTAWEVLAGYYKSLQNSN"
 ### The class label is provided in the header of each protein sequence in the fasta files as "label_1" and "label_0" for positive and negative sequences, respectively
-### Example: ">seq_17848_label_1" (positive sequence) ">seq_17860_label_0" (negative sequence)
-### Alot more negative sequences compared to positive sequences in both train and test set
+##### Example: ">seq_17848_label_1" (positive sequence) ">seq_17860_label_0" (negative sequence)
+### A lot more negative sequences compared to positive sequences in both train and test set
 ### The protein sequences are of variable length (50 to 3000 characters)
 
 # Expected Task Description
-You need to train and tune your model using Train.fasta
-Finally, you need to test on the Test.fasta
-As test performance metric, you need use sensitivity, specificity and MCC score
-Remember to explore:
-character level language models
-various feature extraction techniques
-class balancing methods during training
+### You need to train and tune your model using Train.fasta
+### Finally, you need to test on the Test.fasta
+### As test performance metric, you need use sensitivity, specificity and MCC score
+### Remember to explore:
+##### character level language models
+##### various feature extraction techniques
+##### class balancing methods during training
