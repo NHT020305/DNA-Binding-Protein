@@ -19,8 +19,4 @@ There are some proteins that interact with DNA and controls many characteristics
 - Remember to explore:
     - character level language models
     - various feature extraction techniques
-<<<<<<< HEAD
     - class balancing methods during training
-=======
-    - class balancing methods during training
->>>>>>> f4df49c7a85d8abcf2546425b33b585c2cde0c01
