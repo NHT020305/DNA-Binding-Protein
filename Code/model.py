@@ -154,6 +154,8 @@ plt.hist(pd.DataFrame(array), bins=40, edgecolor='black')
 plt.show()
 
 """
+for aa in amino_acids_list:
+    plot_feature_distribution(dna_train, "Frequency_" + aa, -0.01, 0.2)
 
 #plot_feature_distribution(dna_train, 'Hydropathy', -3, 3)
 
